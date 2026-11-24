@@ -1,0 +1,7 @@
+uproot
+awkward
+numpy
+matplotlib
+pytest
+cocotb
+fsspec-xrootd

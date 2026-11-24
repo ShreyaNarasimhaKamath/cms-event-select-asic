@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Data (keep only the README and small samples)
+*.root
+data/*
+!data/README.md
+!data/.gitkeep
+!data/sample/
+
+# Simulation outputs
+*.vcd
+*.fst
+*.vvp
+sim_build/
+obj_dir/
+results.xml
+
+# OpenLane / EDA run outputs
+runs/
+flow/**/runs/
+*.log
+*.rpt.tmp
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
